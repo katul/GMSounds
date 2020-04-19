@@ -762,6 +762,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .icon {
   float: left;
+  margin-top: -7px;
 }
 
 #services .icon i {
@@ -772,7 +773,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title {
-  margin-left: 60px;
+  margin-left: 40px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1230,7 +1231,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #team .member .social a {
   transition: none;
-  color: #fff;
+  color: #17a2b8;
 }
 
 #team .member .social a:hover {
