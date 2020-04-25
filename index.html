@@ -608,16 +608,14 @@
 		  
         </div>
 				
-		<iframe
-		  class="map"
-		  frameborder="0" style="border:0"
-		  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDcEiDCO1Swn8oRteLv75Ib6eMqWrZjr8s&q=G.M.Sound+Motihari" allowfullscreen>
-		  
-		</iframe>		
-<!--
+		
+	
         <div class="form">
-          <form method="post" role="form" class="php-email-form">
-            <div class="form-row">
+          <form method="POST" class="contact-email-form" action="https://mailthis.to/GMSound">
+            
+		    <input type="hidden" name="_confirmation" value="We have received your message. Our team will Reach you Soon."/>
+		    <input type="hidden" name="_subject" value="G M.Sound Customer Query"/>
+			<div class="form-row">  
               <div class="form-group col-md-6">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validate"></div>
@@ -637,13 +635,18 @@
             </div>
             <div class="mb-3">
               <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
             </div>
-            <div class="text-center"><button type="submit" onclick="sendEmail()">Send Message</button></div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
--->
+		
+		<iframe
+		  class="map"
+		  frameborder="0" style="border:0"
+		  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDcEiDCO1Swn8oRteLv75Ib6eMqWrZjr8s&q=G.M.Sound+Motihari" allowfullscreen>
+		  
+		</iframe>	
+
       </div>
     </section><!-- End Contact Section -->
 	<!-- Embed Google Maps here -->
