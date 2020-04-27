@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #cadc35;
+  color: #28a745;
   transition: 0.5s;
 }
 
@@ -35,6 +35,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
+}
+
+hr { 
+    display: block;
+    border: 1px inset;
+    overflow: hidden;
+	color: #fff;
+	width: 50%;
 }
 
 /* Back to top button */
@@ -382,9 +390,10 @@ h1, h2, h3, h4, h5, h6 {
   #nav-menu-container {
     padding-right: 60px;
   }
+  
 }
 
-@media (max-width: 768px) {
+@media (max-width: 902px) {
   #nav-menu-container {
     display: none;
   }
@@ -465,10 +474,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 902px) {
   #mobile-nav-toggle {
     display: inline;
   }
+  
 }
 
 /* Mobile Nav Styling */
@@ -758,7 +768,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services {
   background: #fff;
   background-size: cover;
-  padding: 60px 0 40px 0;
+  padding: 30px 0 20px 0;
 }
 
 #services .box {
