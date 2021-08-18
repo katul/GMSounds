@@ -681,6 +681,7 @@
               <a href="https://www.youtube.com/channel/UCPhekjlsCmHMqB7Yb-oRQKg" class="youtube" target="_blank"><i class="fa fa-youtube" ></i></a>
 	      <a href="https://www.linkedin.com/in/g-m-sound-6107451a7/" class="linkedin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
               <a href="tel:+919931524853" class="phone" ><i class="fa fa-phone"></i></a>
+			  
             </div>
 
           </div>
@@ -706,6 +707,7 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  		<div id="WAButton"></div>
   <!-- Uncomment below i you want to use a preloader -->
   <!-- <div id="preloader"></div> -->
 
@@ -726,6 +728,27 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+		<script type="text/javascript" src="assets/js/floating-wpp.min.js"></script>
+
+		<script>
+    $(document).ready(function(){
+    	$(function() {
+			$('#WAButton').floatingWhatsApp({
+				phone: '+919931524853', //WhatsApp Business phone number International format-
+				headerTitle: 'Chat with us on WhatsApp!', //Popup Title
+				popupMessage: 'Hello, how can we help you?', //Popup Message
+				showPopup: false, //Enables popup display
+				buttonImage: '<img src="assets/img/whatsapp.jpeg" />', //Button Image
+				//headerColor: 'crimson', //Custom header color	
+				//backgroundColor: 'crimson', //Custom background button color
+				position: "right"    
+			});
+      
+		});
+    })
+    
+    </script>
 
 </body>
 
